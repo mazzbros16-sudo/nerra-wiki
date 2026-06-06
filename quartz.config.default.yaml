@@ -16,30 +16,29 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+        header: Cormorant Garamond
+  	body: Libre Baskerville
+  	code: IBM Plex Mono
     colors:
-      lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
-      darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+  lightMode:
+    light: "#f4efe4"
+    lightgray: "#ddd2be"
+    gray: "#8f816f"
+    darkgray: "#473d33"
+    dark: "#241f1a"
+    secondary: "#7d3f2d"
+    tertiary: "#9d7a42"
+    highlight: rgba(157, 122, 66, 0.12)
+
+  darkMode:
+    light: "#1d1915"
+    lightgray: "#2f2923"
+    gray: "#a89a87"
+    darkgray: "#d8ccb8"
+    dark: "#f4efe4"
+    secondary: "#b66a4b"
+    tertiary: "#c8a46b"
+    highlight: rgba(200, 164, 107, 0.12)
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -129,7 +128,7 @@ plugins:
       position: left
       priority: 50
   - source: github:quartz-community/graph
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
@@ -196,8 +195,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+         Home: /
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer

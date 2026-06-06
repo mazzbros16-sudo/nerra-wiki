@@ -1,49 +1,19 @@
-@use "./variables.scss" as *;
-
-// put your custom CSS here!
-
-:root {
-  --light: #f1eadc;
-  --lightgray: #d7c9b4;
-  --gray: #7c6f61;
-  --darkgray: #3a3028;
-  --dark: #1b1714;
-  --secondary: #8f3f2b;
-  --tertiary: #b88a44;
-  --highlight: rgba(184, 138, 68, 0.18);
-}
-
-[saved-theme="dark"] {
-  --light: #1b1714;
-  --lightgray: #2a241f;
-  --gray: #a99882;
-  --darkgray: #d8c6aa;
-  --dark: #f1eadc;
-  --secondary: #c05a3c;
-  --tertiary: #d2a85c;
-  --highlight: rgba(210, 168, 92, 0.18);
-}
-
-body {
-  font-family: Georgia, "Times New Roman", serif;
-}
-
-h1, h2, h3 {
-  letter-spacing: 0.02em;
-}
-
-.page-title a {
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: 700;
+blockquote {
+  border-left: 4px solid var(--tertiary);
+  background: var(--highlight);
+  padding: 1rem;
+  border-radius: 6px;
+  font-style: italic;
 }
 
 article {
   line-height: 1.75;
 }
 
-blockquote {
-  border-left: 3px solid var(--tertiary);
-  background: var(--highlight);
-  padding: 0.75rem 1rem;
-  font-style: italic;
+.article-title {
+  letter-spacing: 0.03em;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
 }
