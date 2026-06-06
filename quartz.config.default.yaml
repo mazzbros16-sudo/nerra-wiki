@@ -16,29 +16,30 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-        header: Cormorant Garamond
-  	body: Libre Baskerville
-  	code: IBM Plex Mono
+      header: Cormorant Garamond
+      body: Libre Baskerville
+      code: IBM Plex Mono
     colors:
-  lightMode:
-    light: "#f4efe4"
-    lightgray: "#ddd2be"
-    gray: "#8f816f"
-    darkgray: "#473d33"
-    dark: "#241f1a"
-    secondary: "#7d3f2d"
-    tertiary: "#9d7a42"
-    highlight: rgba(157, 122, 66, 0.12)
-
-  darkMode:
-    light: "#1d1915"
-    lightgray: "#2f2923"
-    gray: "#a89a87"
-    darkgray: "#d8ccb8"
-    dark: "#f4efe4"
-    secondary: "#b66a4b"
-    tertiary: "#c8a46b"
-    highlight: rgba(200, 164, 107, 0.12)
+      lightMode:
+        light: "#f4efe4"
+        lightgray: "#ddd2be"
+        gray: "#8f816f"
+        darkgray: "#473d33"
+        dark: "#241f1a"
+        secondary: "#7d3f2d"
+        tertiary: "#9d7a42"
+        highlight: rgba(157, 122, 66, 0.12)
+        textHighlight: "#fff23688"
+      darkMode:
+        light: "#1d1915"
+        lightgray: "#2f2923"
+        gray: "#a89a87"
+        darkgray: "#d8ccb8"
+        dark: "#f4efe4"
+        secondary: "#b66a4b"
+        tertiary: "#c8a46b"
+        highlight: rgba(200, 164, 107, 0.12)
+        textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
