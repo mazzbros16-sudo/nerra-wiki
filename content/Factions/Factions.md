@@ -9,3 +9,5 @@
 
 [[PC - Crown Guard]]
 
+[[PC - Blightwarden]]
+
