@@ -1,2 +1,0 @@
-
-Blightwardens are wandering scholars who travel the land investigating disease, strange illnesses, and unnatural creatures. Most people respect their knowledge, but few are happy to see one arrive. In many places, the appearance of a Blightwarden is taken as a sign that something is very wrong, and that whatever has happened may be worse than anyone first believed.

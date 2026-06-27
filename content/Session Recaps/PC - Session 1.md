@@ -1,6 +1,6 @@
 # Session 1 - The First Night
 
-The roads of Southern Aedryn proved every bit as unforgiving . Flint wandered the snow-covered roads for what felt like days, unknowingly passing the same abandoned cart three times before eventually crossing paths with Vadim. Recognising the worsening weather and the signs of an approaching blizzard, Vadim led Flint towards the nearby mining town of Needleberry.
+The roads of Southern Aedryn proved unforgiving. Flint wandered the snow-covered roads for  days, unknowingly passing the same abandoned cart three times before eventually crossing paths with Vadim. Recognising the worsening weather and the signs of an approaching blizzard, Vadim led Flint towards the nearby mining town of Needleberry.
 
 The town itself carried on much as it always had. Dean made his usual trip through the market square, collecting supplies for the evening's stew and speaking with familiar faces throughout the township. Flint and Vadim arrived in town where the automaton found unexpected kindness when a local smith repaired part of his damaged frame.
 
