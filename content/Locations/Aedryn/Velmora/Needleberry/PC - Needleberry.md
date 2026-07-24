@@ -16,6 +16,15 @@ At the heart of the town sits The Bent Needle, a well-loved tavern that serves a
 
 To most of Aedryn, Needleberry is forgettable. To the people who call it home, it is simply home.
 
+## Activity
+
+- Seven dead during the first night.
+- [[PC - Edda Voss]] deceased.
+- The Pincushion currently closed.
+- The town is snowed in.
+- Barricades and watch rotations established.
+- [[PC - Irilard Belcons]] organising the defence.
+
 ### Related Articles
 
 - [[PC - The Stoneward Spine]]
