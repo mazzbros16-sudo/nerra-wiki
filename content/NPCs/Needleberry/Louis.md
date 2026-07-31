@@ -1,0 +1,1 @@
+Louis is one of the servants working at [[PC - Belcons Manor]], serving [[PC - Irilard Belcons]] and assisting with the day-to-day running of the estate. He was among the servants present when the party returned to the manor following their discovery of the creatures outside [[PC - Needleberry]], greeting Dean when he arrived ahead of the others.
