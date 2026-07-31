@@ -1,8 +1,6 @@
 
-Proprietor of [[PC - Needleberry]]
+Irilard Belcons is the owner of the [[PC - Needleberry]] and much of the surrounding township of Needleberry. A former captain of the Velmoran Alliance, Belcons fought extensively during the Smoke War before eventually settling in Needleberry, where he has become one of the town's wealthiest and most influential figures. His home, [[PC - Belcons Manor]], sits above the township and contains an extensive collection of weapons, armour and other items acquired during the war.
 
-- Former Captain of the Velmoran Alliance.
-- Owner of the Needleworks.
-- Organising Needleberry's defence.
-- Military mindset.
-- Believes preparation is survival.
+Belcons led the year-and-a-half siege of [[PC - Aerra Ungor]], a dwarven-controlled settlement formerly known as Matiel. Following its fall, he took one of the settlement's dwarven-reinforced defensive walls as recompense and later incorporated it into his manor. His experiences during the war continue to shape the way he approaches danger, favouring preparation, strong defences and calculated decisions when the safety of Needleberry is threatened.
+
+Since the attacks on [[PC - Needleberry]] began, Belcons has taken an active role in organising the town's response, first tasking the party with locating the creatures after learning they had successfully killed one. Following their discovery of the creatures' hiding place, he offered the party shelter within [[PC - Belcons Manor]], believing their presence among the townsfolk could draw the creatures towards them. When the party returned with the town's children, Belcons placed them within his safe room and helped prepare the manor's defences, which were tested that night when the creatures came to the estate.
