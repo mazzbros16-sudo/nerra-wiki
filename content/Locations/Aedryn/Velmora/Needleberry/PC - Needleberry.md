@@ -18,12 +18,11 @@ To most of Aedryn, Needleberry is forgettable. To the people who call it home, i
 
 ## Activity
 
-- Seven dead during the first night.
-- [[PC - Edda Voss]] deceased.
-- The Pincushion currently closed.
-- The town is snowed in.
-- Barricades and watch rotations established.
-- [[PC - Irilard Belcons]] organising the defence.
+The attacks on Needleberry eventually followed the party to [[PC - Belcons Manor]]. With the town's children moved into Belcons' safe room, the party deliberately attempted to draw the creatures towards the manor rather than risk an attack upon the gathered townsfolk.
+
+The creatures eventually arrived in significant numbers and demonstrated an ability to penetrate the manor's defences and disable its dwarven generator. [[PC - Irilard Belcons]] attempted to negotiate for Needleberry's survival, ultimately offering the party in exchange for the town. The negotiation ended with Belcons' death.
+
+The fate of Needleberry and its people remains uncertain.
 
 ### Related Articles
 
