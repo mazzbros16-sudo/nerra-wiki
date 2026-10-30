@@ -23924,7 +23924,50 @@ async function getSatoriFonts(headerFont, bodyFont) {
     ...headerFonts.filter((font) => font !== null),
     ...bodyFonts.filter((font) => font !== null)
   ];
-  return fonts;
+  if (fonts.length > 0) {
+    return fonts;
+  }
+  console.log(
+    styleText(
+      "yellow",
+      `
+Warning: Could not fetch any Google Fonts. Attempting to use a system font as fallback for OG image generation.`
+    )
+  );
+  const [regularFont, boldFont] = await Promise.all([loadSystemFont(false), loadSystemFont(true)]);
+  const systemFonts = [];
+  if (regularFont) {
+    systemFonts.push({
+      name: headerFontName,
+      data: regularFont.data,
+      weight: 400,
+      style: "normal"
+    });
+    systemFonts.push({
+      name: bodyFontName,
+      data: regularFont.data,
+      weight: 400,
+      style: "normal"
+    });
+  }
+  if (boldFont) {
+    systemFonts.push({
+      name: headerFontName,
+      data: boldFont.data,
+      weight: 700,
+      style: "normal"
+    });
+  }
+  if (systemFonts.length > 0) {
+    const fontName = regularFont?.name ?? boldFont?.name;
+    console.log(
+      styleText(
+        "yellow",
+        `Warning: Using system font "${fontName}" as fallback. OG images may look different than intended.`
+      )
+    );
+  }
+  return systemFonts;
 }
 async function fetchTtf(rawFontName, weight) {
   const fontName = rawFontName.replaceAll(" ", "+");
@@ -23936,31 +23979,127 @@ async function fetchTtf(rawFontName, weight) {
     return fs.readFile(cachePath);
   } catch {
   }
-  const cssResponse = await fetch(
-    `https://fonts.googleapis.com/css2?family=${fontName}:wght@${weight}`
-  );
-  const css = await cssResponse.text();
-  const urlRegex = /url\((https:\/\/fonts.gstatic.com\/s\/.*?.ttf)\)/g;
-  const match = urlRegex.exec(css);
-  if (!match) {
+  try {
+    const cssUrl = `https://fonts.googleapis.com/css2?family=${fontName}:wght@${weight}`;
+    const cssResponse = await fetch(cssUrl);
+    if (!cssResponse.ok) {
+      console.log(
+        styleText(
+          "yellow",
+          `
+Warning: Google Fonts returned HTTP ${cssResponse.status} for ${rawFontName} (weight ${weight})`
+        )
+      );
+      return;
+    }
+    const css = await cssResponse.text();
+    const urlRegex = /url\((https:\/\/fonts.gstatic.com\/s\/.*?.ttf)\)/g;
+    const match = urlRegex.exec(css);
+    if (!match) {
+      console.log(
+        styleText(
+          "yellow",
+          `
+Warning: Could not extract font URL for ${rawFontName} (weight ${weight}) from Google Fonts CSS`
+        )
+      );
+      return;
+    }
+    const fontUrl = match[1];
+    if (!fontUrl) {
+      return;
+    }
+    const fontResponse = await fetch(fontUrl);
+    if (!fontResponse.ok) {
+      console.log(
+        styleText(
+          "yellow",
+          `
+Warning: Failed to download font file for ${rawFontName} (weight ${weight}): HTTP ${fontResponse.status}`
+        )
+      );
+      return;
+    }
+    const fontData = Buffer.from(await fontResponse.arrayBuffer());
+    await fs.mkdir(cacheDir, { recursive: true });
+    await fs.writeFile(cachePath, fontData);
+    return fontData;
+  } catch (err2) {
+    const message = err2 instanceof Error ? err2.message : String(err2);
     console.log(
       styleText(
         "yellow",
         `
-Warning: Failed to fetch font ${rawFontName} with weight ${weight}, got ${cssResponse.statusText}`
+Warning: Failed to fetch font "${rawFontName}" (weight ${weight}) from Google Fonts: ${message}`
       )
     );
     return;
   }
-  const fontUrl = match[1];
-  if (!fontUrl) {
-    return;
+}
+var SYSTEM_FONT_CANDIDATES = {
+  darwin: [
+    // San Francisco (macOS 10.15+)
+    "/System/Library/Fonts/SFNS.ttf",
+    // Helvetica Neue
+    "/System/Library/Fonts/HelveticaNeue.ttc",
+    // Helvetica
+    "/System/Library/Fonts/Helvetica.ttc",
+    // Arial
+    "/Library/Fonts/Arial.ttf",
+    // Fallback: guaranteed present on every macOS
+    "/System/Library/Fonts/Supplemental/Arial.ttf"
+  ],
+  linux: [
+    // DejaVu Sans — ubiquitous on most distros
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    // Liberation Sans (Red Hat / Fedora)
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+    "/usr/share/fonts/liberation-sans/LiberationSans-Regular.ttf",
+    // Noto Sans
+    "/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf",
+    "/usr/share/fonts/noto/NotoSans-Regular.ttf",
+    // FreeSans
+    "/usr/share/fonts/truetype/freefont/FreeSans.ttf"
+  ],
+  win32: [
+    "C:\\Windows\\Fonts\\arial.ttf",
+    "C:\\Windows\\Fonts\\segoeui.ttf",
+    "C:\\Windows\\Fonts\\calibri.ttf",
+    "C:\\Windows\\Fonts\\verdana.ttf"
+  ]
+};
+var SYSTEM_FONT_CANDIDATES_BOLD = {
+  darwin: [
+    "/System/Library/Fonts/SFNS.ttf",
+    "/Library/Fonts/Arial Bold.ttf",
+    "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+  ],
+  linux: [
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+    "/usr/share/fonts/liberation-sans/LiberationSans-Bold.ttf",
+    "/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf",
+    "/usr/share/fonts/noto/NotoSans-Bold.ttf",
+    "/usr/share/fonts/truetype/freefont/FreeSansBold.ttf"
+  ],
+  win32: [
+    "C:\\Windows\\Fonts\\arialbd.ttf",
+    "C:\\Windows\\Fonts\\segoeuib.ttf",
+    "C:\\Windows\\Fonts\\calibrib.ttf",
+    "C:\\Windows\\Fonts\\verdanab.ttf"
+  ]
+};
+async function loadSystemFont(bold) {
+  const candidates = bold ? SYSTEM_FONT_CANDIDATES_BOLD[process.platform] ?? [] : SYSTEM_FONT_CANDIDATES[process.platform] ?? [];
+  for (const fontPath of candidates) {
+    try {
+      const data = await fs.readFile(fontPath);
+      const name = path.basename(fontPath, path.extname(fontPath));
+      return { data, name };
+    } catch {
+    }
   }
-  const fontResponse = await fetch(fontUrl);
-  const fontData = Buffer.from(await fontResponse.arrayBuffer());
-  await fs.mkdir(cacheDir, { recursive: true });
-  await fs.writeFile(cachePath, fontData);
-  return fontData;
+  return void 0;
 }
 var defaultImage = ({
   cfg,
@@ -24272,6 +24411,18 @@ var CustomOgImages = (userOpts) => {
       const headerFont = theme.typography.header;
       const bodyFont = theme.typography.body;
       const fonts = await getSatoriFonts(headerFont, bodyFont);
+      if (fonts.length === 0) {
+        console.log(
+          styleText(
+            "yellow",
+            `
+Warning: Skipping OG image generation \u2014 no fonts available (Google Fonts unreachable and no system fonts found). To suppress this warning, disable the plugin in your config:
+  - source: "@quartz-community/og-image"
+    enabled: false`
+          )
+        );
+        return;
+      }
       for (const [_tree, vfile] of content) {
         const data = vfile.data;
         if (data.frontmatter?.socialImage !== void 0) continue;
@@ -24284,6 +24435,9 @@ var CustomOgImages = (userOpts) => {
       const headerFont = theme.typography.header;
       const bodyFont = theme.typography.body;
       const fonts = await getSatoriFonts(headerFont, bodyFont);
+      if (fonts.length === 0) {
+        return;
+      }
       for (const changeEvent of changeEvents) {
         if (!changeEvent.file) continue;
         const data = changeEvent.file.data;
