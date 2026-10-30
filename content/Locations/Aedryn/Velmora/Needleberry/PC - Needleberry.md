@@ -22,8 +22,13 @@ The attacks on Needleberry eventually followed the party to [[PC - Belcons Manor
 
 The creatures eventually arrived in significant numbers and demonstrated an ability to penetrate the manor's defences and disable its dwarven generator. [[PC - Irilard Belcons]] attempted to negotiate for Needleberry's survival, ultimately offering the party in exchange for the town. The negotiation ended with Belcons' death.
 
-The fate of Needleberry and its people remains uncertain.
+Following the attacks of the creatures beneath [[PC - The Cave]] and the events at [[PC - Belcons Manor]], [[PC - Needleberry]] suffered significant casualties but ultimately survived.
 
+Following the death of [[PC - Irilard Belcons]], the town began rebuilding while dealing with the aftermath of the attacks. During the final days before the party's departure, a vampire spawn attacked the town hall, killing two townsfolk and abducting another.
+
+The party later departed Needlebury in pursuit of the creature responsible, leaving the safety and future of the settlement in the hands of its remaining residents
+
+During the party's first night north of Needleberry, they encountered survivors from [[PC - Canterbury]]. After rescuing them from another vampire creature, the party directed the survivors towards Needleberry, telling them that [[PC - The Bent Needle]] could provide shelter.
 ### Related Articles
 
 - [[PC - The Stoneward Spine]]

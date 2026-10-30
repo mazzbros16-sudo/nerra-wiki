@@ -12,3 +12,4 @@ The following records have been compiled from journals, military reports, travel
 - [[Timeline]]
 - [[Quests]]
 - [[Lore]]
+- [[Players]]

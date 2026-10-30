@@ -1,13 +1,15 @@
 
-[[PC - Needleberry]]
+## Regions of Aedryn
 
-[[PC - The Bent Needle]]
+- [[PC - Velmora]]
+- [[PC - The Stoneward Spine]]
+- [[PC - The Verdant Expanse]]
+- [[PC - The Shattercoast]]
 
-[[PC - The Shattercoast]]
 
-[[PC - The Verdant Expanse]]
+## Velmora
 
-[[PC - Velmora]]
-
-[[PC - The Stoneward Spine]]
-
+- [[PC - Needleberry]]
+- [[PC - The Bent Needle]]
+- [[PC - Canterbury]]
+- [[PC - Waymeet]]
