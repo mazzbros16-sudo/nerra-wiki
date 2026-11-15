@@ -80,7 +80,7 @@ And the world has never entirely moved on.
 
 ### Related Articles
 
-- [[PC - The Smoke War]]
+- [[PC - Smoke War]]
     
 - [[PC - The Night of Red Smoke]]
     

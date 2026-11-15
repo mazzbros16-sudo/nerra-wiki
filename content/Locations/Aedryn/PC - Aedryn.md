@@ -29,6 +29,6 @@ Most people view Aedryn as a land of opportunity. Others see it as a continent s
     
 - [[PC - The Stoneward Spine]]
     
-- [[PC - The Smoke War]]
+- [[PC - Smoke War]]
     
 - [[PC - The Cataclysm]]

@@ -14,4 +14,4 @@ Whether such stories are true is another matter entirely.
 
  [[PC - The Ellei]]
  
- [[PC - The Smoke War]]
+ [[PC - Smoke War]]

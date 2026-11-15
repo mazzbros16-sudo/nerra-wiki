@@ -66,7 +66,7 @@ And together, they changed the world.
 
 ### Related Articles
 
-- [[PC - The Smoke War]]
+- [[PC - Smoke War]]
     
 - [[PC - The Night of Red Smoke]]
     

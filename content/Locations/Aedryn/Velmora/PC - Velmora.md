@@ -9,4 +9,4 @@ Yet beneath the prosperity lies tension. The war may have ended, but few have fo
 
  [[PC - The Velmor]]
  
- [[PC - The Smoke War]]
+ [[PC - Smoke War]]

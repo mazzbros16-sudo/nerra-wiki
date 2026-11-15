@@ -14,4 +14,4 @@ Their military is widely regarded as the best trained in Aedryn, though they fav
     
 - [[PC - The Rift]]
     
-- [[PC - The Smoke War]]
+- [[PC - Smoke War]]

@@ -20,6 +20,9 @@
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/factions/pc---the-velmor</loc>
     <lastmod>2026-06-06T04:01:30.000Z</lastmod>
   </url><url>
+    <loc>https://mazzbros16-sudo.github.io/nerra-wiki/factions/political/pc---mountain-sentinels</loc>
+    <lastmod>2026-11-15T06:32:00.032Z</lastmod>
+  </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/pc---aedryn</loc>
     <lastmod>2026-06-06T04:01:30.000Z</lastmod>
   </url><url>
@@ -30,16 +33,16 @@
     <lastmod>2026-06-06T04:01:30.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/ironwall/pc---ironwall</loc>
-    <lastmod>2026-10-16T04:14:43.118Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/needleberry/pc---belcons-manor</loc>
     <lastmod>2026-08-15T07:34:48.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/needleberry/pc---needleberry</loc>
-    <lastmod>2026-08-15T07:34:48.000Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/needleberry/pc---the-bent-needle</loc>
-    <lastmod>2026-06-06T04:01:30.000Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/needleberry/pc---the-cave</loc>
     <lastmod>2026-07-24T03:42:16.000Z</lastmod>
@@ -48,19 +51,28 @@
     <lastmod>2026-07-31T08:22:47.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/pc---canterbury</loc>
-    <lastmod>2026-10-16T03:57:38.567Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
+  </url><url>
+    <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/pc---iron-road</loc>
+    <lastmod>2026-11-15T06:29:46.819Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/pc---velmora</loc>
     <lastmod>2026-06-06T04:01:30.000Z</lastmod>
   </url><url>
+    <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/waymeet/pc---tinker's-row</loc>
+    <lastmod>2026-11-15T06:32:00.014Z</lastmod>
+  </url><url>
+    <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/waymeet/pc---wayfarer's-rest</loc>
+    <lastmod>2026-11-15T06:32:00.058Z</lastmod>
+  </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/waymeet/pc---waymeet</loc>
-    <lastmod>2026-10-16T03:58:14.905Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/verdant-expanse/pc---the-verdant-expanse</loc>
     <lastmod>2026-06-06T04:01:30.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/</loc>
-    <lastmod>2026-06-27T06:48:47.000Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/lore/history/pc---shards</loc>
     <lastmod>2026-06-06T04:01:30.000Z</lastmod>
@@ -71,8 +83,14 @@
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/lore/history/pc---the-cataclysm</loc>
     <lastmod>2026-06-06T04:01:30.000Z</lastmod>
   </url><url>
+    <loc>https://mazzbros16-sudo.github.io/nerra-wiki/lore/history/the-smoke-war/pc---dwarven-war-machines</loc>
+    <lastmod>2026-11-15T06:34:17.413Z</lastmod>
+  </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/lore/history/the-smoke-war/pc---other-smoke-war-events</loc>
     <lastmod>2026-06-06T04:01:30.000Z</lastmod>
+  </url><url>
+    <loc>https://mazzbros16-sudo.github.io/nerra-wiki/lore/history/the-smoke-war/pc---smoke-war</loc>
+    <lastmod>2026-06-06T02:19:18.061Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/lore/history/the-smoke-war/pc---the-dwarven-empire</loc>
     <lastmod>2026-06-06T04:01:30.000Z</lastmod>
@@ -99,22 +117,22 @@
     <lastmod>2026-06-06T04:01:30.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/npcs/antagonists/pc---malcorvus-von-helvig</loc>
-    <lastmod>2026-10-16T03:58:53.322Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/npcs/antagonists/pc---needleberry-creatures</loc>
-    <lastmod>2026-08-15T07:34:48.000Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/npcs/antagonists/pc---red-eyed-creature</loc>
-    <lastmod>2026-08-15T07:34:48.000Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/npcs/general/pc---elara</loc>
-    <lastmod>2026-10-16T03:59:12.132Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/npcs/</loc>
     <lastmod>2026-06-06T04:01:30.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/npcs/needleberry/bromm-hartwell</loc>
-    <lastmod>2026-07-24T03:42:16.000Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/npcs/needleberry/louis</loc>
     <lastmod>2026-07-31T08:14:53.000Z</lastmod>
@@ -126,31 +144,37 @@
     <lastmod>2026-08-15T07:34:48.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/npcs/needleberry/pc---mayor-hammond</loc>
-    <lastmod>2026-06-26T05:56:14.000Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
+  </url><url>
+    <loc>https://mazzbros16-sudo.github.io/nerra-wiki/npcs/waymeet/pc---rogar</loc>
+    <lastmod>2026-11-15T06:31:50.592Z</lastmod>
+  </url><url>
+    <loc>https://mazzbros16-sudo.github.io/nerra-wiki/npcs/waymeet/pc---tobias-and-edwin-marrick</loc>
+    <lastmod>2026-11-15T06:33:38.660Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/players/active/pc---aleksander</loc>
-    <lastmod>2026-10-16T03:56:33.264Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/players/active/pc---ash</loc>
-    <lastmod>2026-10-16T04:16:29.752Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/players/active/pc---dean</loc>
-    <lastmod>2026-10-16T04:16:51.893Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/players/active/pc---flint</loc>
-    <lastmod>2026-10-16T04:17:14.449Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/players/former/pc---vadim</loc>
-    <lastmod>2026-10-16T04:00:43.125Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/players/</loc>
-    <lastmod>2026-09-04T04:44:13.831Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/quests/main/completed/save-needleberry</loc>
-    <lastmod>2026-10-16T04:02:42.958Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/quests/main/ongoing/track-the-creature-home</loc>
-    <lastmod>2026-10-16T04:08:09.172Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/quests/main/save-needleberry</loc>
     <lastmod>2026-07-24T03:42:16.000Z</lastmod>
@@ -168,83 +192,92 @@
     <lastmod>2026-08-15T07:34:48.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/session-recaps/pc---session-5</loc>
-    <lastmod>2026-08-28T03:16:06.242Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/session-recaps/pc---session-6</loc>
-    <lastmod>2026-09-04T04:33:31.985Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/session-recaps/pc---session-7</loc>
-    <lastmod>2026-10-16T03:58:00.422Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/session-recaps/pc---session-8</loc>
-    <lastmod>2026-10-30T02:48:57.990Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
+  </url><url>
+    <loc>https://mazzbros16-sudo.github.io/nerra-wiki/session-recaps/pc---session-9</loc>
+    <lastmod>2026-11-15T06:32:44.374Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/session-recaps/pc---session-2</loc>
     <lastmod>2026-07-24T03:42:16.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/session-recaps/</loc>
-    <lastmod>2026-08-15T07:34:48.000Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/timeline</loc>
     <lastmod>2026-06-06T04:01:30.000Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/</loc>
-    <lastmod>2026-06-06T05:46:18.000Z</lastmod>
+    <lastmod>2026-10-30T03:24:27.000Z</lastmod>
+  </url><url>
+    <loc>https://mazzbros16-sudo.github.io/nerra-wiki/factions/political/</loc>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/shattercoast/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/stoneward-spine/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/ironwall/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/needleberry/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/velmora/waymeet/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/locations/aedryn/verdant-expanse/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/lore/history/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/lore/history/the-smoke-war/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/npcs/antagonists/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/npcs/general/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/npcs/needleberry/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
+  </url><url>
+    <loc>https://mazzbros16-sudo.github.io/nerra-wiki/npcs/waymeet/</loc>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/players/active/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/players/former/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/quests/main/completed/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/quests/main/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/quests/main/ongoing/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url><url>
     <loc>https://mazzbros16-sudo.github.io/nerra-wiki/tags/</loc>
-    <lastmod>2026-10-30T03:21:51.842Z</lastmod>
+    <lastmod>2026-11-15T06:36:42.728Z</lastmod>
   </url></urlset>

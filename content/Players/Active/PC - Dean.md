@@ -12,7 +12,7 @@ Dean witnessed Belcons attempt to exchange the party's lives for the safety of N
 
 In the battle that followed, Dean continued fighting while Flint became unresponsive. He was eventually struck down by the red-eyed creature, but survived after Ash pulled him behind Flint. The creature hesitated to attack the automaton and eventually recognised Flint's authority before leaving.
 
-Following the battle, Dean helped dispose of the creatures and performed a symbolic sacrifice for those killed during the attacks. While searching Belcons Manor, he also uncovered information concerning [[PC - The Smoke War]], the Liberation of Vellor and the Night of Red Smoke at Karnholt.
+Following the battle, Dean helped dispose of the creatures and performed a symbolic sacrifice for those killed during the attacks. While searching Belcons Manor, he also uncovered information concerning [[PC - Smoke War]], the Liberation of Vellor and the Night of Red Smoke at Karnholt.
 
 Once the remaining threat appeared to have passed, Dean escorted the rescued children back into town. After learning that the Town Hall had been attacked, he helped organise a mob within The Bent Needle and returned to the cave in search of the escaped creature.
 

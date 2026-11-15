@@ -12,4 +12,4 @@ Travellers passing through the region will encounter bustling industrial settlem
 
  [[PC - The Redentan]]
  
- [[PC - The Smoke War]]
+ [[PC - Smoke War]]

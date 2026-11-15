@@ -52,7 +52,7 @@ The rebellion had been extinguished. The idea behind it had not. For this reason
 
 ### Related Articles
 
-- [[PC - The Smoke War]]
+- [[PC - Smoke War]]
     
 - [[PC - The Dwarven Empire]]
     

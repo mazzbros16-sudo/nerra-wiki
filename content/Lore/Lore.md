@@ -1,6 +1,6 @@
 
 
-[[PC - The Smoke War]]
+[[PC - Smoke War]]
 
 [[PC - Magic]]
 

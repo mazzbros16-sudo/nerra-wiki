@@ -12,4 +12,4 @@ As the largest and most influential faction on the continent, the Velmor often f
     
 - [[PC - Crown Guard]]
     
-- [[PC - The Smoke War]]
+- [[PC - Smoke War]]

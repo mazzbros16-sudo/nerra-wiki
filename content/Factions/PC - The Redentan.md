@@ -14,4 +14,4 @@ Prepared.
 
 - [[PC - The Stoneward Spine]]
     
-- [[PC - The Smoke War]]
+- [[PC - Smoke War]]
